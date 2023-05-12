@@ -10,8 +10,8 @@
 
             "icon": "evl",
 
-            "tools": [ "http://localhost:8081/epsilon/epsilon_tool.json",
-                       "http://localhost:8081/emfatic/emfatic_tool.json"],
+            "tools": [ "http://localhost:8070/epsilon_tool.json",
+                       "http://localhost:8071/emfatic_tool.json"],
 
             "layout": {
 
@@ -108,7 +108,7 @@
 
             "icon": "evl",
 
-            "tools": [ "http://localhost:8081/epsilon/epsilon_tool.json"],
+            "tools": [ "http://localhost:8070/epsilon_tool.json"],
 
             "layout": {
 
@@ -208,7 +208,7 @@
 
         "icon": "etl",
 
-        "tools": [ "http://localhost:8081/epsilon/epsilon_tool.json"],
+        "tools": [ "http://localhost:8070/epsilon_tool.json"],
 
         "layout": {
 
