@@ -10,7 +10,7 @@
 
             "icon": "ocl",
 
-            "tools": ["http://localhost:8072/ocl_tool.json"],
+            "tools": ["http://127.0.0.1:8072/ocl_tool.json"],
 
             "layout": {
 

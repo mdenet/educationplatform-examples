@@ -10,10 +10,10 @@
 
             "icon": "ocl",
 
-            "tools": ["http://localhost:8072/ocl_tool.json",
-                       "http://localhost:8070/epsilon_tool.json",
-                       "http://localhost:8071/emfatic_tool.json",
-                       "http://localhost:8073/emf_tool.json" ],
+            "tools": ["http://127.0.0.1:8072/ocl_tool.json",
+                       "http://127.0.0.1:8070/epsilon_tool.json",
+                       "http://127.0.0.1:8071/emfatic_tool.json",
+                       "http://127.0.0.1:8073/emf_tool.json" ],
 
             "layout": {
 

@@ -10,9 +10,9 @@
 
             "icon": "refresh",
 
-            "tools": [ "http://localhost:8081/emf/emf_tool.json", 
-                       "http://localhost:8081/emfatic/emfatic_tool.json", 
-                       "http://localhost:8081/epsilon/epsilon_tool.json"],
+            "tools": [ "http://127.0.0.1:8081/emf/emf_tool.json", 
+                       "http://127.0.0.1:8081/emfatic/emfatic_tool.json", 
+                       "http://127.0.0.1:8081/epsilon/epsilon_tool.json"],
 
             "layout": {
 
