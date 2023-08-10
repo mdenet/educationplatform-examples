@@ -49,8 +49,9 @@
     
                     "ref": "xtext-grammar",
     
-                    "file": "uk.kcl.inf.mdd1.turtles.parent/uk.kcl.inf.mdd1.turtles/src/uk/kcl/inf/mdd1/Turtles.xtext"
+                    "file": "uk.kcl.inf.mdd1.turtles.parent/uk.kcl.inf.mdd1.turtles/src/uk/kcl/inf/mdd1/Turtles.xtext",
     
+                    "languageName": "turtles"
                 },
 
 
@@ -103,7 +104,7 @@
     
                     "ref": "xtext-editor",
     
-                    "file": "uk.kcl.inf.mdd1.turtles.parent/uk.kcl.inf.mdd1.turtles/src/uk/kcl/inf/mdd1/Turtles.xtext"
+                    "file": "runtime-EclipseApplication/TestTurtles/test.turtles"
     
                 },
 
