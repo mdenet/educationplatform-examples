@@ -51,7 +51,15 @@
     
                     "file": "uk.kcl.inf.mdd1.turtles.parent/uk.kcl.inf.mdd1.turtles/src/uk/kcl/inf/mdd1/Turtles.xtext",
     
-                    "languageName": "turtles"
+                    "languageName": "uk.kcl.inf.mdd1.turtles.Turtles",
+
+                    "baseName": "uk.kcl.inf.mdd1.turtles",
+
+                    "extension": "turtles",
+
+                    "projectFiles" : [  
+
+                    ]
                 },
 
 
