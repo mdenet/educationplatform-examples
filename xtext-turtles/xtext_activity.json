@@ -30,7 +30,10 @@
                     "sourceButton": "action-button",
 
                     "parameters": {
-                        "grammar": "panel-xtext"
+                        "languageName": "uk.ac.kcl.inf.mdd1.Turtles",
+                        "baseName": "uk.ac.kcl.inf.mdd1",
+                        "extension": "turtles",
+                        "grammar": "panel-xtext"                        
                     },
 
                     "output": "panel-console"
