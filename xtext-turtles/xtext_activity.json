@@ -30,8 +30,8 @@
                     "sourceButton": "action-button",
 
                     "parameters": {
-                        "languageName": "uk.ac.kcl.inf.mdd1.Turtles",
-                        "baseName": "uk.ac.kcl.inf.mdd1",
+                        "languageName": "uk.ac.kcl.inf.mdd1.turtles.Turtles",
+                        "baseName": "uk.ac.kcl.inf.mdd1.turtles",
                         "extension": "turtles",
                         "grammar": "panel-xtext"                        
                     },
@@ -62,7 +62,11 @@
 
                     "projectFiles" : [  
 
-                    ]
+                    ],
+
+                    "editorPanel": "panel-turtles",
+                    
+                    "editorActivity": "activity-turtles-editor"
                 },
 
 
@@ -115,7 +119,9 @@
     
                     "ref": "xtext-editor",
     
-                    "file": "runtime-EclipseApplication/TestTurtles/test.turtles"
+                    "file": "runtime-EclipseApplication/TestTurtles/test.turtles",
+
+                    "extension": "turtles"
     
                 },
 
