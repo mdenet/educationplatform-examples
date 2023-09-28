@@ -10,8 +10,7 @@
 
             "icon": "xtext",
 
-            "tools": [ "http://127.0.0.1:8070/epsilon_tool.json",
-                        "http://127.0.0.1:8074/xtext_tool.json"],
+            "tools": ["http://127.0.0.1:8074/xtext_tool.json"],
 
             "layout": {
 
