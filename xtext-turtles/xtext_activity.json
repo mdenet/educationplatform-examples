@@ -52,16 +52,6 @@
                     "ref": "xtext-grammar",
     
                     "file": "uk.kcl.inf.mdd1.turtles.parent/uk.kcl.inf.mdd1.turtles/src/uk/kcl/inf/mdd1/Turtles.xtext",
-    
-                    "languageName": "uk.kcl.inf.mdd1.turtles.Turtles",
-
-                    "baseName": "uk.kcl.inf.mdd1.turtles",
-
-                    "extension": "turtles",
-
-                    "projectFiles" : [  
-
-                    ],
 
                     "editorPanel": "panel-turtles",
                     
