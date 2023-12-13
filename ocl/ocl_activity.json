@@ -17,7 +17,7 @@
             "layout": {
 
                     "area": [
-                        ["panel-model", "panel-ocl", "panel-console"  ],
+                        ["panel-model-composite", "panel-ocl", "panel-console"  ],
                         [ "panel-metamodel" , ""  ]
                     ]
 
@@ -38,6 +38,18 @@
 
                     "output": "panel-console"
 
+                },
+                {
+                    "source": "panel-model",
+                    
+                    "sourceButton": "refresh-button",
+                    
+                    "parameters": {
+                        "flexmi":"panel-model",
+                        "emfatic":"panel-metamodel"
+                    },
+                    
+                    "output": "panel-model-diagram"
                 }
             ],
 
@@ -55,18 +67,41 @@
                     "file": "library.ocl"
     
                 },
-
                 {
-                    "id": "panel-model",
-    
-                    "name": "Model",
-    
-                    "ref": "flexmi",
-    
-                    "file": "tutorial.flexmi"
-    
+                   "id": "panel-model-composite",
+                   "name": "Model",
+                   "ref": "composite",
+                    "childPanels":[
+                        {
+                            "id": "panel-model",
+                            "name": "flexmi",
+                            "ref": "flexmi",
+                            "file": "tutorial.flexmi"
+            
+                        },
+                        {
+                           "name": "Diagram",
+                           "id": "panel-model-diagram",
+                           "ref": "output"
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "id": "show-editor-button",
+                            "icon": "editor",
+                            "internal": "toggle",
+                            "targetPanel": "panel-model",
+                            "hint": "Toggle "
+                        },
+                        {
+                            "id": "show-diagram-buttun",
+                            "icon": "diagram",
+                            "internal": "toggle",
+                            "targetPanel": "panel-model-diagram",
+                            "hint": "Toggle "
+                        }
+                    ]
                 },
-
                 {
                     "id": "panel-metamodel",
     
