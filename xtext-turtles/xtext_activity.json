@@ -10,7 +10,7 @@
 
             "icon": "xtext",
 
-            "tools": ["http://127.0.0.1:8074/xtext_tool.json"],
+            "tools": ["https://mdenet-ep.sites.er.kcl.ac.uk/tools/xtext/xtext_tool.json"],
 
             "layout": {
 
@@ -81,8 +81,8 @@
 
             "icon": "xtext",
 
-            "tools": [ "http://127.0.0.1:8070/tools",
-                        "http://127.0.0.1:8074/xtext_tool.json"],
+            "tools": [ "https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon",
+                        "https://mdenet-ep.sites.er.kcl.ac.uk/tools/xtext/xtext_tool.json"],
 
             "layout": {
 

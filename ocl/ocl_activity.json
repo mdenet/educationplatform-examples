@@ -10,10 +10,10 @@
 
             "icon": "ocl",
 
-            "tools": ["http://127.0.0.1:8072/ocl_tool.yml",
-                       "http://127.0.0.1:8070/tools",
-                       "http://127.0.0.1:8071/emfatic_tool.json",
-                       "http://127.0.0.1:8069/conversion_tool.json"],
+            "tools": ["https://mdenet-ep.sites.er.kcl.ac.uk/tools/ocl/ocl_tool.yml",
+                       "https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon",
+                       "https://mdenet-ep.sites.er.kcl.ac.uk/tools/emfatic/emfatic_tool.json",
+                       "https://mdenet-ep.sites.er.kcl.ac.uk/tools/conversion/conversion_tool.json"],
 
             "layout": {
 

@@ -10,7 +10,7 @@
 
             "icon": "ocl",
 
-            "tools": ["http://127.0.0.1:8072/ocl_tool.json"],
+            "tools": ["https://mdenet-ep.sites.er.kcl.ac.uk/tools/ocl/ocl_tool.json"],
 
             "layout": {
 

@@ -33,8 +33,8 @@ activities:
     ref: console
   title: Query Project Plan
   tools:
-  - http://127.0.0.1:8070/tools
-  - http://127.0.0.1:8071/emfatic_tool.json
+  - https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon
+  - https://mdenet-ep.sites.er.kcl.ac.uk/tools/emfatic/emfatic_tool.json
 - actions:
   - output: panel-problems
     parameters:
@@ -74,7 +74,7 @@ activities:
     ref: problem
   title: Validate Project Plan
   tools:
-  - http://127.0.0.1:8070/tools
+  - https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon
 - actions:
   - output: panel-tmodel
     parameters:
@@ -119,5 +119,5 @@ activities:
     ref: console
   title: Transform to Deliverables
   tools:
-  - http://127.0.0.1:8070/tools
+  - https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon
 
