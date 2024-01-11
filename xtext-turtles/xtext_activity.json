@@ -81,7 +81,7 @@
 
             "icon": "xtext",
 
-            "tools": [ "https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon",
+            "tools": [ "https://mdenet-ep.sites.er.kcl.ac.uk/tools/epsilon/tools",
                         "https://mdenet-ep.sites.er.kcl.ac.uk/tools/xtext/xtext_tool.json"],
 
             "layout": {
