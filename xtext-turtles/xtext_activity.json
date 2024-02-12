@@ -29,8 +29,8 @@
                     "sourceButton": "action-button",
 
                     "parameters": {
-                        "languageName": "uk.ac.kcl.inf.mdd1.turtles.Turtles",
-                        "baseName": "uk.ac.kcl.inf.mdd1.turtles",
+                        "languageName": "uk.kcl.inf.mdd1.Turtles",
+                        "baseName": "uk.kcl.inf.mdd1.turtles",
                         "extension": "turtles",
                         "grammar": "panel-xtext"                        
                     },
