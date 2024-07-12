@@ -92,7 +92,8 @@
                 "name": "Try out your language here",
                 "ref": "xtext-editor",
                 "file": "runtime-EclipseApplication/TestTurtles/test.turtles",
-                "extension": "turtles"
+                "extension": "turtles",
+                "buttons": [ { "ref": "to-diagram-button" } ]
             },
             {
                 "id": "panel-mm-composite",
